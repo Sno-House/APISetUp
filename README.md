@@ -1,4 +1,4 @@
-# Cassiopeia Set-Up Guide
+# Cassiopeia Set-Up Guide (From Sources)
 
 1. Install Anaconda. Type the following anywhere in your terminal.
 ```bash
