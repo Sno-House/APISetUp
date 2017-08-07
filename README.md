@@ -48,6 +48,11 @@ Your output for step 9 should look something like this:
 ![alt text](VerifyOutput.png)
 
 10. Do a final test by running a small script. We can do this by cloning this directory and running the python script that's included.
+```bash
+git clone https://github.com/Sno-House/APISetUp.git
+cd APISetUp
+python3 test.py
+```
 ![alt text](FinalOutput.png)
 
 11. Congrats! You're done with set up. You now have all the tools to continue making your bot. **A couple of important things to note!**
