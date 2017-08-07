@@ -32,7 +32,7 @@ echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/cassiopeia" >> ~/.bashrc
 echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/merakicommons" >> ~/.bashrc
 echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/datapipelines" >> ~/.bashrc
 ```
-7. Add your API key as an environment variable. You get this value from the Riot Games Developer Portal (we all did this a couple meetings back).
+7. Add your API key as an environment variable. You get this value from the Riot Games Developer Portal.
 ```bash
 echo "export DEV_KEY='{insert your dev key here}'" >> ~/.bashrc
 ```
@@ -57,7 +57,7 @@ python3 test.py
 
 ![alt text](FinalOutput.png)
 
-11. Congrats! You're done with set up. You now have all the tools to continue making your bot. **A couple of important things to note!**
+11. Congrats! You're done with set up. You now have all the tools to continue making your LoL application. **A couple of important things to note!**
     - API keys seems to reset everyday. This means you'll have to manually change your DEV_KEY environment variable everytime you want to work on this. The file you want to change is located here: ```~/.bashrc```. You can use any text editor to open and edit this file. The variables you want to edit are located at the very end of the file.
     - Cassiopeia v3 is still relatively new and the developers are currently fixing bugs. This means that you should frequently update your ```cassiopeia``` library before you start working. To do so, ```cd``` into the cassiopeia directory and type ```git pull``` to sync all the files. To be on the safe side, I would do this for the other two libraries as well (datapipelines and merakicommons)
     
