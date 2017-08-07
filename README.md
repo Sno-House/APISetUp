@@ -45,3 +45,12 @@ source ~/.bashrc
 tail ~/.bashrc
 ```
 Your output for step 9 should look something like this:
+![alt text](VerifyOutput.png)
+
+10. Do a final test by running a small script. We can do this by cloning this directory and running the python script that's included.
+![alt text](FinalOutput.png)
+
+11. Congrats! You're done with set up. You now have all the tools to continue making your bot. **A couple of important things to note!**
+    - API keys seems to reset everyday. This means you'll have to manually change your DEV_KEY environment variable everytime you want to work on this. The file you want to change is located here: ```~/.bashrc```. You can use any text editor to open and edit this file.
+    - Cassiopeia v3 is still relatively new and the developers are currently fixing bugs. This means that you should frequently update your ```cassiopeia``` library before you start working. To do so, ```cd``` into the cassiopeia directory and type ```git pull``` to sync all the files. To be on the safe side, I would do this for the other two libraries as well (datapipelines and merakicommons)
+    
