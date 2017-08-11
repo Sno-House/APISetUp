@@ -8,7 +8,7 @@ wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
 ```bash
 bash Anaconda3-4.4.0-Linux-x86_64.sh
 ```
-3. After the script is done running, verify that the script ran successfully. (Running the following command should output ```Python 3.6.1```)
+3. After the script is done running, verify that the script ran successfully. (Running the following command should output ```Python 3.6.1```. If it isn't type ```source ~/.bashrc``` and verify the version again).
 ```bash
 python --version
 ```
