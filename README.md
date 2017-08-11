@@ -20,12 +20,6 @@ git clone https://github.com/meraki-analytics/cassiopeia.git
 git clone https://github.com/meraki-analytics/merakicommons.git
 git clone https://github.com/meraki-analytics/datapipelines.git
 ```
-5. Switch over to the ```v3-development``` branch of cassioepia.
-```bash
-cd cassiopeia
-git checkout v3-development
-cd ..
-```
 6. Add the file paths of the 3 libraries to your ```PYTHONPATH``` environment variable.
 ```bash
 echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/cassiopeia" >> ~/.bashrc
