@@ -34,7 +34,7 @@ echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/datapipelines" >> ~/.bashrc
 ```
 7. Add your API key as an environment variable. You get this value from the [Riot Games Developer Portal](https://developer.riotgames.com).
 ```bash
-echo "export DEV_KEY='{insert your dev key here}'" >> ~/.bashrc
+echo "export RIOT_API_KEY='{insert your dev key here}'" >> ~/.bashrc
 ```
 8. Restart your shell (you can also just close and re-open your terminal).
 ```bash
