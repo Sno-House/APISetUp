@@ -28,9 +28,9 @@ cd ..
 ```
 6. Add the file paths of the 3 libraries to your ```PYTHONPATH``` environment variable.
 ```bash
-echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/cassiopeia" >> ~/.bashrc
-echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/merakicommons" >> ~/.bashrc
-echo "export PYTHONPATH=$PYTHONPATH:$(pwd)/datapipelines" >> ~/.bashrc
+echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/cassiopeia" >> ~/.bashrc
+echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/merakicommons" >> ~/.bashrc
+echo "export PYTHONPATH=\$PYTHONPATH:$(pwd)/datapipelines" >> ~/.bashrc
 ```
 7. Add your API key as an environment variable. You get this value from the [Riot Games Developer Portal](https://developer.riotgames.com).
 ```bash
